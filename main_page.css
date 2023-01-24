@@ -1,0 +1,162 @@
+input[type="file"] {
+  border: 0;
+}
+.logout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 32%;
+  margin-top: 0.8%;
+  border: 1px solid rgb(111, 116, 121);
+  border-radius: 5px;
+  background: rgb(168, 172, 175);
+  box-shadow: inset 0 1px rgba(101, 114, 126, 1),
+    inset 0 0 1px rgba(140, 150, 170, 0.8), 0 1px rgb(83, 94, 104),
+    0 0 1px rgb(86, 96, 106);
+  height: 50%;
+  width: 6%;
+  font-size: 14px;
+}
+.logout a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+.logout img {
+  width: 80%;
+  height: 50%;
+  cursor: pointer;
+  margin-right: 45%;
+}
+.download {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-right: 32%;
+  margin-top: 0.8%;
+  border: 1px solid rgb(111, 116, 121);
+  border-radius: 3px;
+  background: rgb(168, 172, 175);
+  box-shadow: inset 0 1px rgba(101, 114, 126, 1),
+    inset 0 0 1px rgba(140, 150, 170, 0.8), 0 1px rgb(83, 94, 104),
+    0 0 1px rgb(86, 96, 106);
+  height: 55%;
+  width: 15%;
+}
+.download a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+.download img {
+  width: 80%;
+  height: 50%;
+  cursor: pointer;
+  margin-right: 45%;
+}
+.item {
+  margin: 2% 2% 2% 6%;
+  align-self: flex-start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: #d9eaf7;
+  border-radius: 20px;
+  height: 21%;
+  width: 11%;
+}
+html {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.item img {
+  width: 65px;
+  height: 65px;
+}
+.welcome {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 75px;
+  background-color: #ebeced;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Параметры тени */ 
+}
+.enter {
+  margin-top: 1%;
+  margin-right: 3%;
+}
+.name {
+  font-weight: bold;
+}
+body {
+  font-family: "Comfortaa";
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.wrap {
+  width: 100%;
+
+  align-self: flex-start;
+}
+.access {
+  align-self: baseline;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 2%;
+  width: 100%;
+}
+.add_file {
+  width: 100%;
+}
+.btns {
+  margin-top: 7%;
+}
+.down_btn {
+  display: inline-block;
+  font-family: arial, sans-serif;
+  font-size: 11px;
+  color: rgb(205, 216, 228);
+  text-shadow: 0 -1px rgb(46, 53, 58);
+  text-decoration: none;
+  user-select: none;
+  line-height: 2em;
+  padding: 1px 1.2em;
+  outline: none;
+  border: 1px solid rgba(33, 43, 52, 1);
+  border-radius: 3px;
+  background: rgb(81, 92, 102)
+    linear-gradient(rgb(81, 92, 102), rgb(69, 78, 87));
+  box-shadow: inset 0 1px rgba(101, 114, 126, 1),
+    inset 0 0 1px rgba(140, 150, 170, 0.8), 0 1px rgb(83, 94, 104),
+    0 0 1px rgb(86, 96, 106);
+}
+
+.del_btn {
+  display: inline-block;
+  font-family: arial, sans-serif;
+  font-size: 11px;
+  color: rgb(205, 216, 228);
+  text-shadow: 0 -1px rgb(46, 53, 58);
+  text-decoration: none;
+  user-select: none;
+  line-height: 2em;
+  padding: 1px 1.2em;
+  outline: none;
+  border-radius: 3px;
+  background: rgb(173, 22, 22);
+  box-shadow: inset 0 1px rgba(101, 114, 126, 1),
+    inset 0 0 1px rgba(140, 150, 170, 0.8), 0 1px rgb(83, 94, 104),
+    0 0 1px rgb(86, 96, 106);
+}

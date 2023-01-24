@@ -1,0 +1,41 @@
+body {
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#frmLogin {
+  padding: 20px 40px 40px 40px;
+  background: #9feea2;
+  border: #acd4f1 1px solid;
+  color: #333;
+  border-radius: 2px;
+  width: 80%;
+  margin-bottom: 70%;
+}
+
+.field-group {
+  margin-top: 15px;
+}
+
+.input-field {
+  padding: 12px 10px;
+  width: 100%;
+  border: #a3c3e7 1px solid;
+  border-radius: 2px;
+  margin-top: 5px;
+}
+.form-submit-button {
+  background: #4ca5e3;
+  border: 0;
+  padding: 10px 0px;
+  border-radius: 2px;
+  color: #fff;
+  text-transform: uppercase;
+  width: 100%;
+}
+.error-message {
+  text-align: center;
+  color: #ff0000;
+}
